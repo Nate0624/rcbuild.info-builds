@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Mini-H-Quad",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4.5-CF-BN"
+    ],
+    "arm": "Blackout/Mini-H-Quad---Arm",
+    "battery": [
+      "Turnigy/nano-tech-1800mah-4S-65~130C-Lipo-Pack"
+    ],
+    "osd": "",
+    "receiver": "Spektrum/DX5e-DSMX-2.4Ghz-5-Channel-TX+RX-Mode-2",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3-Black-Edition",
+    "videotx": "Hawkeye/5.8-GHz-32-channel-200mW-Video-Transmitter",
+    "blackbox": "",
+    "voltagereg": "Pololu/D24V6F5"
+  },
+  "version": 1
 }
